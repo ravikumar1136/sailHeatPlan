@@ -1,0 +1,13 @@
+{
+  "name": "build",
+  "version": "0.0.1",
+  "homepage": "index.html",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  }
+}
